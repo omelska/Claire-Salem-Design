@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    color: #120f14;
+}
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header {
+    height: 35vh;
+    width: 100%;
+    background: #835561;
+}
+
+nav {
+    z-index: 1;
+    background: #f7e7ec;
+}
+
+.navbar {
+    border: 1px solid #835561;
+}
+
+.nav-link, .nav-item {
+    color: #120f14;
+    border: 0px;
+    z-index: 1;
+}
+
+.nav-link:hover {
+    color: #835561;
+    border: 0px;
+    z-index: 1;
+}
+
+#submitButton {
+    width: 80px;
+    border-radius: 4px;
+}
+
+input, textarea {
+    width: 450px;
+    padding: 5px;
+    background: #835561;
+    color: #fff;
+}
+
+textarea {
+    height: 180px;
+    color: #fff
+}
+
+.contact {
+    color: #fff;
+}
+
+h1 {
+    padding-top: 5%;
+}
+
+footer {
+    height: 10vh;
+    text-align: center;
+}
+
+.margin-top {
+    margin-top: 20px;
+}

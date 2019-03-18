@@ -1,0 +1,65 @@
+body{
+    background-color: #fbe3e2;
+    color: #59656d;
+    font-family: 'Nimbus Sans L';
+
+  }
+  
+  h1{
+    text-align: center
+  }
+  
+  .radio{
+    float: left;
+    margin-left: 30px;
+  }
+  
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  
+  #invitation{
+    background-image: url('./formal.jpg') ;
+    width: 500px;
+    height: 550px;
+    background-size: cover;
+    text-align: center;
+    color: #4d3038;
+    font-family: 'Papyrus';
+  }
+  
+  
+  #initials{
+    margin-top: 135px;
+    margin-bottom: 20px;
+  }
+  
+  #surname{
+    margin-top: 20px;
+    margin-bottom: 10px;  
+  }
+  
+  @media screen and (max-width: 400px) {
+    main{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        justify-items: center;
+      }
+}
+
+@media screen and (min-width: 401px, max-width: 800px) {
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;  
+      }
+      #invitation{
+        background-image:url('./floral1.jpg');
+        width: 50%;
+        height: 55%;
+      }
+}

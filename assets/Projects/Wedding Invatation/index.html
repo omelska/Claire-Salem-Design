@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Weddding</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <header>
+      <h1>Weddding Invitation Designer</h1>
+    </header>
+    <nav>
+        <div class="radio" id='formal'><p>Formal</p></div>
+        <div class="radio" id='spring'><p>Spring</p></div>
+        <div class="radio" id='art'><p>Art Deco</p></div>
+        <br><p>______________________________________________________________________________</p>
+    </nav>
+  
+    <main>
+      <div>
+        
+        <form id="data">
+          <p>1st Name:</p>
+          <input type="text" id="first">
+          <p>2nd Name:</p>
+          <input type="text" id="second">
+          <p>Last Name:</p>
+          <input type="text" id="last">
+          <p>Date:</p>
+          <input type="text" id="date">
+          <p>Location:</p>
+          <input type="text" id="location">
+        </form>
+      </div>
+      
+      
+      <div id ='invitation'>
+        <h1 id='initials'></h1>
+        <p>You are cordially invited to the wedding of</p>
+        <h2 id='names'></h2>
+        <h1 id='surname'></h1>
+        <p id='day'></p>
+        <h4 id='place'></h4>
+      </div>
+    </main>
+    
+
+    <script src="./index.js" type='text/javascript'></script>
+    
+  </body>
+</html>
