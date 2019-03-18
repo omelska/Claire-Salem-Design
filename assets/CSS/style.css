@@ -1,6 +1,7 @@
 * {
     margin: 0;
     color: #120f14;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 main {
@@ -8,7 +9,13 @@ main {
     margin-right: 5%;
 }
 
+.logo {
+    width: 19%;
+    height: auto;
+}
+
 header {
+    text-align: center;
     height: 35vh;
     width: 100%;
     background: #835561;
