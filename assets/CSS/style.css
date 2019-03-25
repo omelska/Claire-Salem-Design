@@ -5,9 +5,10 @@
 }
 
 body {
-    background: url("/assets/Images/background.jpg");
+    /* background: url("/assets/Images/background.jpg");
     background-repeat: repeat-y;
-    background-position: center;
+    background-position: center; */
+    background: #fff;
 }
 
 .row {
