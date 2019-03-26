@@ -1,25 +1,24 @@
 * {
     margin: 0;
-    color: #11244f;
-    font-family: 'Alegreya Sans SC', sans-serif;
+    padding: 0;
+    color: #8f8d8d;
+    font-family: 'Karla', sans-serif;
 }
 
-body {
-    /* background: url("/assets/Images/background.jpg");
-    background-repeat: repeat-y;
-    background-position: center; */
-    background: #fff;
-}
-
-.row {
-    margin-top: 30px;
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 main {
-    margin-left: 7%;
-    margin-right: 7%;
-    /* background: url("/assets/Images/back-main.png");
-    background-repeat: repeat-y; */
+    margin-left: 10%;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100%;
 }
 
 .logo {
@@ -31,25 +30,25 @@ header {
     text-align: center;
     height: 35vh;
     width: 100%;
-    /* background: #ee2722; */
-    background: url("../Images/prints/1.jpg");
-    background-position: top;
+    /* background: url("/assets/Images/background.png");
+    background-position: top; */
 }
 
 nav {
     z-index: 1;
-    background: #3e2423;
+    background: #93b1c4;
+    /* opacity: 0.8; */
 }
 
 .nav-link, .nav-item {
-    font-family: 'Nosifer', cursive;
+    /* font-family: 'Nosifer', cursive; */
     color: #fff;
     border: 0px;
     z-index: 1;
 }
 
 .nav-link:hover {
-    color: #ee2722;
+    color: #7994a7;
     border: 0px;
     z-index: 1;
 }
@@ -62,7 +61,7 @@ nav {
 input, textarea {
     width: 450px;
     padding: 5px;
-    background: #3e2423;
+    background: #93b1c4;
     color: #fff;
 }
 
@@ -77,9 +76,9 @@ textarea {
 
 h1 {
     padding-left: 4%;
-    font-family: 'Nosifer', cursive;
+    /* font-family: 'Nosifer', cursive; */
     font-size: 48px;
-    color: #ee2722;
+    color: #7994a7;
     padding-top: 5%;
 }
 
@@ -87,8 +86,16 @@ h2 {
     padding-left: 4%;
     margin-top: 8%;
     margin-bottom: 3%;
-    font-family: 'Nosifer', cursive;
-    color: #11244f;
+    /* font-family: 'Nosifer', cursive; */
+    color: #7994a7;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
 }
 
 footer {
@@ -97,13 +104,13 @@ footer {
 }
 
 .margin-top {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 #arrow {
     margin-top: 20px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 @media screen and (max-width: 640px) {
