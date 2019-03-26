@@ -121,4 +121,7 @@ footer {
     input, textarea {
         width: 100%;
     }
+    main {
+        margin: 0;
+    }
 }
