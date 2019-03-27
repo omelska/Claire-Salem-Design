@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* color: #8f8d8d; */
     font-family: 'Karla', sans-serif;
 }
 
@@ -10,10 +9,6 @@
     height: 100%;
     padding: 0;
     margin: 0;
-}
-
-.padding-top {
-    padding-top: 20px;
 }
 
 main {
@@ -74,19 +69,13 @@ textarea {
 }
 
 h1 {
-    /* padding-left: 4%; */
-    /* font-family: 'Nosifer', cursive; */
     font-size: 48px;
-    color: #000;
     padding-top: 5%;
 }
 
 h2 {
-    /* padding-left: 4%; */
     margin-top: 6%;
     margin-bottom: 3%;
-    /* font-family: 'Nosifer', cursive; */
-    color: #000;
 }
 
 .bold {
@@ -94,7 +83,7 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 footer {
@@ -130,6 +119,19 @@ footer {
     }
     main {
         margin-left: 10px;
-        /* margin-right: 10px; */
+        margin-right: 10px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    .col-lg-3 {
+        margin-top: 10px;
+    }
+    #arrow {
+        width: 25px;
+        height: 25px;
     }
 }
